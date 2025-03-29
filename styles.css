@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+.searchdiv{
+  background: linear-gradient(to right, rgb(9, 190, 132), rgb(4, 203, 206));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+  gap: 4px;
+  padding: 10px;
+  margin:auto;
+  width: 50%;
+}
+
+.heading{
+  text-align: center;
+  color: rgba(15, 156, 109, 0.907);
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#searcinput{
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: rgb(227, 221, 221);
+  padding: 5px;
+  width: 250px;
+}
+
+.fa-solid{
+  background:rgb(227, 221, 221);
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.heading{
+  background-color: rgb(43, 187, 195);
+  color: white;
+  padding: 8px;
+  border-radius:10px ;
+}
+
+.temp
+{
+  background: rgb(147, 192, 210);
+  color: black;
+  border: 2px solid #aec9c3;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+.outerdiv
+{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 15px;
+  align-items: center;
+  justify-content: center;
+}
